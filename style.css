@@ -1,0 +1,26 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#cont-1 {
+    width: 10vw;
+    background-color: red;
+}
+#cont-2 {
+    width: 10vw;
+    background-color: black;
+}
+
+#cont-3 {
+    width: 80vw;
+    background-color: blue;
+    order: 2;
+}
+.invisible {
+    display: none;
+}
+
+.visible{
+    display: block;
+}
